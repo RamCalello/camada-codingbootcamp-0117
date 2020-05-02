@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: "Kanit";
-    src: url(./fonts/Kanit-ExtraLight.ttf);
+  font-family: "Kanit";
+  src: url(./fonts/Kanit-ExtraLight.ttf);
 }
 
 header {
@@ -14,14 +14,8 @@ header {
   background-repeat: no-repeat;
   background-position: top;
   height: 100em;
-  
-  text-align: center;
-  
-}
 
-main {
-background: rgb(16,0,36);
-background: linear-gradient(180deg, rgba(16,0,36,1) 3%, rgba(75,9,121,1) 38%, rgba(171,0,255,1) 93%);
+  text-align: center;
 }
 
 h1 {
@@ -30,8 +24,6 @@ h1 {
   color: whitesmoke;
   font-size: 7em;
   position: relative;
-  
-  
 }
 
 h2 {
@@ -40,14 +32,21 @@ h2 {
 }
 
 h3 {
-font-family: "Astro";
-color: whitesmoke;
-font-size: 2em;
+  font-family: "Astro";
+  color: whitesmoke;
+  font-size: 2em;
 }
 
 body {
   margin: 0em;
   padding: 0em;
+  background: rgb(16, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(16, 0, 36, 1) 3%,
+    rgba(75, 9, 121, 1) 38%,
+    rgba(171, 0, 255, 1) 93%
+  );
 }
 
 .sec1 {
@@ -55,12 +54,11 @@ body {
 }
 
 .travis {
-  width: 40em;
+  height: 60em;
   position: relative;
   float: right;
-  top: 20em;
+  top: 30em;
   margin: 20px;
-  
 }
 
 .textotravis {
@@ -91,6 +89,49 @@ body {
   font-family: "Kanit";
 }
 
+textarea {
+  font-family: "Kanit";
+  color: whitesmoke;
+  resize: none;
+  outline: blueviolet;
+  background-color: darkorchid;
+}
+
+input {
+  font-family: "Kanit";
+  color: whitesmoke;
+  background-color: darkorchid;
+}
+
 footer {
-  background-color: burlywood;
+  background-color: black;
+  margin-top: 2em;
+  height: 12em;
+  text-align: center;
+}
+
+.thanks {
+  padding-top: 1em;
+}
+
+nav {
+  position: relative;
+  bottom: 2em;
+  right: 1em;
+}
+
+a:link{
+  color:whitesmoke;
+  text-decoration: none;
+}
+a:visited {
+  color:whitesmoke;
+  text-decoration: none;
+}
+a:hover {
+  color:whitesmoke;
+  text-decoration: none;
+}
+a:active {
+  color:whitesmoke;
 }
