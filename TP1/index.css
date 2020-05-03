@@ -14,7 +14,6 @@ header {
   background-repeat: no-repeat;
   background-position: top;
   height: 100em;
-
   text-align: center;
 }
 
@@ -54,10 +53,10 @@ body {
 }
 
 .travis {
-  height: 60em;
+  height: 50em;
   position: relative;
   float: right;
-  top: 30em;
+  top: 40em;
   margin: 20px;
 }
 
@@ -120,18 +119,18 @@ nav {
   right: 1em;
 }
 
-a:link{
-  color:whitesmoke;
+a:link {
+  color: whitesmoke;
   text-decoration: none;
 }
 a:visited {
-  color:whitesmoke;
+  color: whitesmoke;
   text-decoration: none;
 }
 a:hover {
-  color:whitesmoke;
+  color: whitesmoke;
   text-decoration: none;
 }
 a:active {
-  color:whitesmoke;
+  color: whitesmoke;
 }
