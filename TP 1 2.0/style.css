@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Astro";
+  src: url(./fonts/AstroWorld.ttf);
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url(./fonts/Kanit-ExtraLight.ttf);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(./img/travis-scott.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100em;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  font-family: "Astro";
+  color: whitesmoke;
+  font-size: 7em;
+  position: relative;
+}
+
+h2 {
+  font-family: "Astro";
+  font-size: 2em;
+}
+
+h3 {
+  font-family: "Astro";
+  color: whitesmoke;
+  font-size: 2em;
+}
+
+body {
+  margin: 0em;
+  padding: 0em;
+  background: rgb(16, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(16, 0, 36, 1) 3%,
+    rgba(75, 9, 121, 1) 38%,
+    rgba(171, 0, 255, 1) 93%
+  );
+}
+
+.sec1 {
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  
+
+}
+
+.travis img{
+  width: 80%;
+}
+.travis{
+  align-self: center;
+  width: 40%;
+  margin-right: 30px;
+}
+
+.textotravis {
+  width: 50%;
+  font-size: 2em;
+  margin-left: 30px;
+  color: whitesmoke;
+  text-align: justify;
+  font-family: "Kanit";
+}
+
+.sec2 {
+  margin-top: 0em;
+  display: inline-block;
+}
+
+.theform {
+  text-align: center;
+}
+
+.textoalbum {
+  font-size: 2em;
+  margin-left: 30px;
+  color: whitesmoke;
+  margin-right: 50px;
+  text-align: justify;
+  font-family: "Kanit";
+}
+
+textarea {
+  font-family: "Kanit";
+  color: whitesmoke;
+  resize: none;
+  outline: blueviolet;
+  background-color: darkorchid;
+}
+
+input {
+  font-family: "Kanit";
+  color: whitesmoke;
+  background-color: darkorchid;
+}
+
+footer {
+  background-color: black;
+  margin-top: 20px;
+  height: 30%;
+  text-align: center;
+}
+
+.foot {
+margin: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+a:active {
+  color: whitesmoke;
+}
