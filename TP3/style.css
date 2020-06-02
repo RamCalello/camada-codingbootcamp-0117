@@ -1,3 +1,13 @@
+@font-face {
+        font-family: "nasalization";
+        src: url(./fonts/nasalization-rg.ttf);
+}
+
+@font-face {
+    font-family: "kenyan";
+    src: url(./fonts/kenyan\ coffee\ bd.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +22,8 @@ header {
     width: 100%;
     height: 25vh;
     background-color: #145FA9;
+    font-family: "nasalization";
+    font-weight: lighter;
     border-bottom: 1px solid black;
 }
 
@@ -35,15 +47,27 @@ header {
 }
 
 .sec1 {
-    margin-bottom: 30px;
+    margin-top: 10px;
+
     background-color: #145FA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 30vh;
+    height: 50vh;
+}
+
+.sec1 h1 {
+    font-family: "nasalization";
+    
+    color: black;
+    font-size: 4em;
 }
 
 .sec2 {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
+    margin-top: 30px;
     background-image: url(./img/fondosec2.jpg);
     flex-direction: column;
     display: flex;
@@ -59,12 +83,16 @@ header {
 }
 
 .titsec2 {
-    width: 30%;
-   border-radius: 10px;
-    height: 5vh;
+    width: 50%;
+    border-radius: 5px;
+    height: 7vh;
     text-align: center;
-    color: blanchedalmond;
-    background-color: rgba(20, 95, 169, 0.726);
+    font-size: 1.4em;
+    font-family: "nasalization";
+    font-weight: lighter;
+    
+    color: black;
+    background-color: #145FA9;
 }
 
 .titsec2 h2 {
@@ -78,7 +106,7 @@ header {
     align-items: center;
     width: 30%;
     height: 55vh;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     background-color: #145FA9;
 }
@@ -87,14 +115,21 @@ header {
     width: 100%;
 }
 
+.imgsec2 h3 {
+    font-family: "nasalization";
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: black;
+}
+
 .sec3 {
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     margin-top: 30px;
     background-color:  #145FA9;
     flex-direction: column;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -106,13 +141,17 @@ header {
 }
 
 .titsec3 {
-    width: 30%;
-   border-radius: 10px;
-    height: 5vh;
+    width: 50%;
+    border-radius: 5px;
+    height: 7vh;
     text-align: center;
-    color: blanchedalmond;
-    background-color: rgba(20, 95, 169, 0.726);
+    font-family: "nasalization";
+    font-weight: lighter;
+    font-size: 1.4em;
+    color: black;
 }
+   
+
 
 .titsec3 h2 {
     margin: 0;
@@ -125,7 +164,7 @@ header {
     align-items: center;
     width: 30%;
     height: 50vh;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     background-color: #145FA9;
 }
@@ -133,4 +172,45 @@ header {
 .imgsec3 img {
     width: 100%;
     height: 35vh;
+}
+
+footer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h2 {
+    color: white;
+    font-family: "nasalization";
+    font-weight: lighter;
+    font-size: 2em;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #145FA9;
+    
+}
+
+input {
+    margin: 2em;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "nasalization";
+    font-weight: lighter;
+}
+
+textarea {
+    margin: 2em;
+    text-align: center;
+    border-radius: 5px;
+    
+    font-family: "nasalization";
+    font-weight: lighter;
 }
