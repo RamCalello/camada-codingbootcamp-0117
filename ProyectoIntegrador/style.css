@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+header {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    background-color: black;
+    color: blueviolet;
+    
+}
+
+.logo {
+width: 30%;
+height: 30vh;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.logo img {
+width: 50%;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 30vh;
+}
+
+.title {
+    margin-top: 10px;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    
+background-color: black;
+}
+
+.lineup {
+    width: 100%;
+    height: 100vh;
+   text-align: center;
+    
+}
+
+.contenedorcards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.cardslineup {
+    background-color: black;
+    width: 30%;
+    height: 80vh;
+    color: blueviolet;
+    
+}
+
+.cardslineup img {
+    width: 100%;
+   
+}
