@@ -1,7 +1,19 @@
+@font-face {
+    font-family: 'gothical';
+    src: url(./font/Gothical.ttf);
+}
+
+@font-face {
+    font-family: 'shodo';
+    src: url(./font/demo_shodogothic.ttf);
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
-    background-color: blueviolet;
+    background-color: black;
 }
 
 header {
@@ -9,7 +21,7 @@ header {
     height: 30vh;
     display: flex;
     background-color: black;
-    color: blueviolet;
+    color: #71289D;
     
 }
 
@@ -41,19 +53,26 @@ nav {
     margin-top: 10px;
     width: 100%;
     height: 50vh;
-    color: white;
+    
     display: flex;
+    
     justify-content: center;
     align-items: center;
-    color: blueviolet;
-    
-background-color: black;
+    color: black;
+    font-family: 'shodo';
+    font-size: 3em;
+    background-image: url(./img/back.jpg);
+   
 }
 
 .lineup {
+    margin-top: 5%;
     width: 100%;
     height: 100vh;
+    font-family: 'gothical';
+    font-size: 2em;
    text-align: center;
+   color: #71289D;
     
 }
 
@@ -66,14 +85,63 @@ background-color: black;
 }
 
 .cardslineup {
-    background-color: black;
+    background-color: #71289D;
     width: 30%;
-    height: 80vh;
-    color: blueviolet;
+    height: 30%;
+    color: black;
+    border-radius: 5%;
     
 }
 
 .cardslineup img {
     width: 100%;
+    border-radius: 5%;
    
+}
+
+.date {
+    width: 100%;
+    font-family: 'shodo';
+    font-size: 1.5em;
+    
+    text-align: center;
+    color: black;
+    background-image: url(./img/back.jpg);
+}
+
+.tourmemories {
+    margin-top: 5%;
+    font-family: 'gothical';
+    font-size: 2em;
+    text-align: center;
+    color: #71289D;
+    background-color: black;
+    
+}
+
+
+.gallery {
+    margin-top: 30px;
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+    justify-items: center;  
+}
+
+
+.gallerydivs {
+    display: flex;
+    width: 70%;
+    
+}
+
+.gallerydivs :hover {
+    transform: scale(1.2);
+    filter: brightness(70%)
+}
+
+
+.gallerydivs img {
+    width: 100%;
 }
