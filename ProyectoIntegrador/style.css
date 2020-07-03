@@ -42,6 +42,8 @@ width: 50%;
 }
 
 nav {
+    font-family: 'gothical';
+    font-size: 2em;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -86,6 +88,8 @@ nav {
 
 .cardslineup {
     background-color: #71289D;
+    font-family: 'shodo';
+    font-size: 1em;
     width: 30%;
     height: 30%;
     color: black;
@@ -96,17 +100,51 @@ nav {
 .cardslineup img {
     width: 100%;
     border-radius: 5%;
+
    
+}
+
+.cardslineup :hover {
+    filter: grayscale(100%);
+}
+
+.tickets {
+    width: 100%;
+    height: 80%;
 }
 
 .date {
     width: 100%;
     font-family: 'shodo';
     font-size: 1.5em;
-    
     text-align: center;
     color: black;
     background-image: url(./img/back.jpg);
+}
+
+.contenedortickets {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ticketcard {
+    width: 30%;
+    
+    background-color: #71289D;
+    text-align: center;
+    font-family: 'shodo';
+    font-size: 1.5em;
+    border-radius: 5%;
+
+}
+
+.ticketcard img {
+    width: 100%;
+}
+
+button {
+    background-color: black;
 }
 
 .tourmemories {
@@ -122,7 +160,7 @@ nav {
 
 .gallery {
     margin-top: 30px;
-    /* background-color: black; */
+   
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 20px;
