@@ -1,185 +1,199 @@
 @font-face {
-    font-family: 'gothical';
-    src: url(./font/Gothical.ttf);
+  font-family: "gothical";
+  src: url(./font/Gothical.ttf);
 }
 
 @font-face {
-    font-family: 'shodo';
-    src: url(./font/demo_shodogothic.ttf);
+  font-family: "shodo";
+  src: url(./font/demo_shodogothic.ttf);
 }
 
-
-
 body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
+  margin: 0;
+  padding: 0;
+  background: rgb(16,0,36);
+background: linear-gradient(180deg, rgba(16,0,36,1) 26%, rgba(24,2,45,1) 100%, rgba(18,15,15,1) 100%, rgba(37,34,40,1) 100%);
+
 }
 
 header {
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    background-color: black;
-    color: #71289D;
-    
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  background-color: black;
+  color: #71289d;
 }
 
 .logo {
-width: 30%;
-height: 30vh;
-background-color: black;
-display: flex;
-align-items: center;
-justify-content: center;
-
+  width: 30%;
+  height: 30vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo img {
-width: 50%;
-
-
+  width: 50%;
 }
 
 nav {
-    font-family: 'gothical';
-    font-size: 2em;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 70%;
-    height: 30vh;
+  font-family: "gothical";
+  font-size: 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 30vh;
 }
 
 .title {
-    margin-top: 10px;
-    width: 100%;
-    height: 50vh;
-    
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-family: 'shodo';
-    font-size: 3em;
-    background-image: url(./img/back.jpg);
-   
+  margin-top: 10px;
+  width: 100%;
+  height: 50vh;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "shodo";
+  font-size: 3em;
+  background-image: url(./img/back.jpg);
 }
 
 .lineup {
-    margin-top: 5%;
-    width: 100%;
-    height: 100vh;
-    font-family: 'gothical';
-    font-size: 2em;
-   text-align: center;
-   color: #71289D;
-    
+  margin-top: 5%;
+  width: 100%;
+  height: 100vh;
+  font-family: "gothical";
+  font-size: 2em;
+  text-align: center;
+  color: #71289d;
 }
 
 .contenedorcards {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .cardslineup {
-    background-color: #71289D;
-    font-family: 'shodo';
-    font-size: 1em;
-    width: 30%;
-    height: 30%;
-    color: black;
-    border-radius: 5%;
-    
+  background-color: #71289d;
+  font-family: "shodo";
+  font-size: 1em;
+  width: 30%;
+  height: 30%;
+  color: black;
+  border-radius: 5%;
 }
 
 .cardslineup img {
-    width: 100%;
-    border-radius: 5%;
-
-   
+  width: 100%;
+  border-radius: 5%;
 }
 
 .cardslineup :hover {
-    filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .tickets {
-    width: 100%;
-    height: 80%;
+  width: 100%;
+  height: 80%;
 }
 
 .date {
-    width: 100%;
-    font-family: 'shodo';
-    font-size: 1.5em;
-    text-align: center;
-    color: black;
-    background-image: url(./img/back.jpg);
+  width: 100%;
+  font-family: "shodo";
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+  background-image: url(./img/back.jpg);
 }
 
 .contenedortickets {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .ticketcard {
-    width: 30%;
-    
-    background-color: #71289D;
-    text-align: center;
-    font-family: 'shodo';
-    font-size: 1.5em;
-    border-radius: 5%;
-
+  width: 30%;
+  height: 90vh;
+  background-color: #71289d;
+  text-align: center;
+  font-family: "shodo";
+  font-size: 2em;
+  border-radius: 5%;
 }
 
 .ticketcard img {
-    width: 100%;
+  width: 100%;
+  border-radius: 5%;
 }
 
 button {
-    background-color: black;
+  font-size: 1.2em;
+  background-color: #71289d;
+  border: none;
+}
+
+.ticketbutton {
+  font-size: 1em;
+  font-family: "gothical";
+  color: #71289d;
+  background-color: black;
+  border-radius: 10%;
+  border: none;
+}
+
+.ticketbutton:hover {
+  color: black;
+  background-color: blueviolet;
 }
 
 .tourmemories {
-    margin-top: 5%;
-    font-family: 'gothical';
-    font-size: 2em;
-    text-align: center;
-    color: #71289D;
-    background-color: black;
-    
+  margin-top: 5%;
+  font-family: "gothical";
+  font-size: 2em;
+  text-align: center;
+  color: #71289d;
+  
 }
-
 
 .gallery {
-    margin-top: 30px;
-   
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 20px;
-    justify-items: center;  
+  margin-top: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+  justify-items: center;
 }
 
-
 .gallerydivs {
-    display: flex;
-    width: 70%;
-    
+  display: flex;
+  width: 70%;
 }
 
 .gallerydivs :hover {
-    transform: scale(1.2);
-    filter: brightness(70%)
+  transform: scale(1.2);
+  filter: brightness(70%);
 }
 
-
 .gallerydivs img {
-    width: 100%;
+  width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsor {
+    width: 50%;
+}
+
+.sponsor img {
+    width: 50%;
 }
