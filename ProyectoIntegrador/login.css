@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "shodo";
+  src: url(./font/demo_shodogothic.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+.contenedordivs {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.login {
+  width: 30%;
+  height: 100vh;
+}
+
+.imagen {
+  width: 70%;
+}
+
+.imagen img {
+  width: 100%;
+}
+
+.tit {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+
+  font-family: "shodo";
+  font-size: 3em;
+  color: #71289d;
+
+  width: 60%;
+  border-radius: 5%;
+}
+
+form {
+  width: 100%;
+  height: 60vh;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: "shodo";
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url(./img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form label {
+  color: #71289d;
+  background-color: black;
+  border-radius: 5%;
+}
+
+input {
+  width: 30%;
+  border-radius: 5%;
+  border: none;
+  background-color: black;
+  color: gray;
+  padding: 1rem;
+}
+
+.submit {
+  width: 25%;
+  color: gray;
+  padding: 0.3rem;
+}
+
+.submit:hover {
+  background-color: blueviolet;
+}
+
+a {
+  font-family: "shodo";
+  font-size: 1.5em;
+  text-align: center;
+}
+
+a:link {
+  color: #71289d;
+}
+
+a:hover {
+  background-color: #71289d;
+  color: black;
+  padding: 0.2em;
+}
+
+.goback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
